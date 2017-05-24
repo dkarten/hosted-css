@@ -36,17 +36,16 @@ body {
 h1, h3{
   padding-bottom: 0px;
   text-align: center;
+  font-family: "Nunito",sans-serif;
+  color: #fff;
 }
 h1{
   font-size: 34px;
-  font-family: "Nunito",sans-serif;
-  color: #fff;
   text-transform: uppercase;
   line-height: 1;
 }
 h3{
   font-size: 20px;
-  font-family: "Nunito",sans-serif;
   font-weight: 200;
   line-height: 1.2;
 }
@@ -56,9 +55,10 @@ h3{
   width: 200px;
   border-radius: 2px;
   border: transparent;
+  background-color: #d7df59 !important;
 }
 #registration .container .content button:hover{
-  background-color: #ff3f75 !important;
+  background-color: transparent!important;
 }
 #registration .container .content .login {
     margin-top: 50px;
