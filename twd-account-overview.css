@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 .widget .header {
   display: none;
 }
@@ -15,12 +18,19 @@ body {
   font-family: "Nunito",sans-serif;
   text-align: center;
 }
+
+@media (min-width: 500px)
+#registration .container .content {
+  float:none;
+  width:100%;
+}
+
 .widget .container{
   padding: 20px;
 }
 h1, h3{
   padding-bottom: 0px;
-  text-align: left;
+  text-align: center;
 }
 h1{
   font-size: 34px;
@@ -105,3 +115,5 @@ img.icon {
     margin-top: 15px;
     color: #333;
   }
+
+
