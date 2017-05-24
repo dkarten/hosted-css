@@ -56,7 +56,7 @@ h3{
   border-radius: 2px;
   border: transparent;
   background-color: #d7df59 !important;
-  color: #fff;
+  color: #fff !important;
 }
 #registration .container .content button:hover{
   background-color: #d7df59! important;
