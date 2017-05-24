@@ -124,6 +124,6 @@ img.icon {
     color: #333;
 }
 
-#sign-up>.header .ct-header-color {
-  background-color:#d7df59 !important;
+.widget .header, .btn.ct-btn {
+  background-color:#000 !important;
 }
