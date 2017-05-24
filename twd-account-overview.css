@@ -59,7 +59,7 @@ h3{
   color: #fff;
 }
 #registration .container .content button:hover{
-  background-color: #d7df59!important;
+  background-color: #d7df59! important;
 }
 #registration .container .content .login {
     margin-top: 50px;
