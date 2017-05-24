@@ -63,9 +63,13 @@ h3{
   background-color: #d7df59! important;
 }
 #registration .container .content .login {
-    margin-top: 50px;
-    text-align: right;
-    margin-bottom: 0px;
+  margin-top:0px;
+  text-align:center;
+  color:white !important;
+}
+
+#registration .container .content .login a {
+  color: #d7df59 !important;
 }
 
 #account-overview .header {
@@ -121,14 +125,5 @@ img.icon {
     font-weight: bold;
     margin-top: 15px;
     color: #333;
-  }
-
-.login {
-  margin-top:0px;
-  text-align:center;
-  color:white !important;
 }
 
-.login a {
-  color: #d7df59 !important;
-}
