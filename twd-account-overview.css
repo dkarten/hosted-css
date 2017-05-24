@@ -122,4 +122,10 @@ img.icon {
     color: #333;
   }
 
+.login p {
+  color:white !important;
+}
 
+.login a {
+  color: #d7df59 !important;
+}
