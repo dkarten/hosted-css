@@ -51,8 +51,6 @@ h3{
 }
 #registration .container .content button {
   font-family: "Nunito",sans-serif;
-  margin-top: 30px;
-  margin-bottom: 0px;
   width: 200px;
   border-radius: 2px;
   border: transparent;
@@ -63,7 +61,6 @@ h3{
   background-color: #d7df59! important;
 }
 #registration .container .content .login {
-  margin-top:0px;
   text-align:center;
   color:white !important;
 }
@@ -127,3 +124,6 @@ img.icon {
     color: #333;
 }
 
+#sign-up>.header .ct-header-color {
+  background-color:#d7df59 !important;
+}
