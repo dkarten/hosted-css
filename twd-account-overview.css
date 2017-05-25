@@ -92,10 +92,10 @@ img.profile-pic {
     height: 140px !important;
 }
 .name {
-    font-family: "ProximaNova-Regular";
+    font-family: "Nunito", sans-serif;
     font-size: 25px !important;
     text-transform: none !important;
-    color: #333 !important;
+    color: #fff !important;
     margin-top: 12px;
 }
 img.icon {
@@ -106,14 +106,14 @@ img.icon {
     display: block;
     font-weight: bold;
     margin-top: 15px;
-    color: #333;
+    color: #fff;
 }
 .small {
     font-size: 18px;
-    color: #ff004f !important;
+    color: #d7df59 !important;
 }
 .points.ct-points-color {
-    color: #ff004f !important;
+    color: #d7df59 !important;
     font-size: 18px !important;
 }
 .points.ct-points-color.flash-points::before {
@@ -121,7 +121,7 @@ img.icon {
     display: block;
     font-weight: bold;
     margin-top: 15px;
-    color: #333;
+    color: #fff;
 }
 
 .widget .header {
