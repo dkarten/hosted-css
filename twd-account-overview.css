@@ -124,6 +124,7 @@ img.icon {
     color: #333;
 }
 
-.widget .header, .btn.ct-btn {
+.widget .header {
+  background: #000 !important;
   background-color:#000 !important;
 }
