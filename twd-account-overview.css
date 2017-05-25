@@ -73,12 +73,12 @@ h3{
     display: none !important;
 }
 #account-overview .user-container {
-    display: block;
+    display: table;
     padding: 0px;
     text-align: center;
 }
 #account-overview .points-info, #account-overview .user-info {
-    display: block;
+    display: table-cell;
     vertical-align: top;
     width: 100%;
     padding: 0px;
