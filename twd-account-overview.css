@@ -80,7 +80,6 @@ h3{
 #account-overview .points-info, #account-overview .user-info {
     display: table-cell;
     vertical-align: top;
-    width: 100%;
     padding: 0px;
 }
 .progress-bar-container {
