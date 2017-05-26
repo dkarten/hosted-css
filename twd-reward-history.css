@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+.widget .header {
+  display: none;
+}
+.container {
+  background-image: none !important;
+}
+body {
+  font-family: "Nunito",sans-serif;
+  background: transparent; 
+}
+
+#registration .container .content {
+  padding: 0px;
+  background-color: transparent;
+  font-family: "Nunito",sans-serif;
+  text-align: center;
+}
+
+#registration .container .content {
+  float:none;
+  width:100%;
+}
+
+@media (min-width: 500px)
+#registration .container .content {
+  float:none !important;
+  width:100% !important;
+}
+
+.widget .container{
+  padding: 20px;
+}
+h1, h3{
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: "Nunito",sans-serif;
+  color: #fff;
+}
+h1{
+  font-size: 34px;
+  text-transform: uppercase;
+  line-height: 1;
+}
+h3{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+#registration .container .content button {
+  font-family: "Nunito",sans-serif;
+  width: 200px;
+  border-radius: 2px;
+  border: transparent;
+  background-color: #d7df59 !important;
+  color: #000 !important;
+}
+#registration .container .content button:hover{
+  background-color: #d7df59! important;
+}
+#registration .container .content .login {
+  text-align:center;
+  color:white !important;
+}
+
+#registration .container .content .login a {
+  color: #d7df59 !important;
+}
+
+#account-settings {
+  background-color: rgba(58, 56, 56, 0.53);
+  border: 2px solid #d7df59;
+  color: #fff;
+}
+
+#activity-history table tbody:before {
+  content: none !important;
+}
+
+.btn {
+    background: #ff004f !important;
+    color: white !important;
+    border: 0px !important;
+    border-radius: 5px !important;
+    font-size: 12px !important;
+    text-align: center;
+    margin-top: 5px !important;
+}
