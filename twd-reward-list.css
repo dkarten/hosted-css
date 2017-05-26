@@ -91,12 +91,18 @@ h3{
     vertical-align: top;
     break-inside: avoid;
     padding: 15px;
-    color: #000;
+    color: #fff;
+    opacity: 0.8;
+}
+
+#reward-list .reward:hover {
+  opacity: 1;
 }
 
 #reward-list .rewards .reward .content .title {
     height: auto;
     margin: 0px;
+    color:#fff;
 }
 
 .reward .row:nth-child(3) {

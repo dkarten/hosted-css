@@ -93,8 +93,13 @@ h3{
     vertical-align: top;
     break-inside: avoid;
     padding: 0px;
-    color:#fff;
+    color:#fff;opacity: 0.8;
 }
+
+#activity-list .activity:hover {
+  opacity: 1;
+}
+
 #activity-list .image-container {
     float: none;
     display: block;
