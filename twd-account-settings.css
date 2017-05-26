@@ -74,3 +74,11 @@ h3{
   color: #fff;
 }
 
+.account-settings .input-group {
+  width:200px !important;
+}
+
+.account-settings .input-group input, .account-settings .input-group select {
+  width: 180px !important;
+}
+
