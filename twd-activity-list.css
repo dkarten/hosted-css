@@ -85,10 +85,10 @@ h3{
 
 #activity-list .activity {
     background: transparent;
-    border: none;
+    border: 1px solid #d7df59;
     display: block;
     min-width: 200px;
-    margin: 0px !important;
+    margin: 10px !important;
     width: 100%;
     vertical-align: top;
     break-inside: avoid;
@@ -132,7 +132,9 @@ h3{
     background: transparent;
     margin-left: 0px !important;
 }
-.points-container 
+.points-container .point-value .ct-points-color {
+  color:#d7df59;
+}
 
 li.activity::after {
     content: '\A';
