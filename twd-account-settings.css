@@ -68,3 +68,9 @@ h3{
   color: #d7df59 !important;
 }
 
+#account-settings {
+  background-color: rgba(58, 56, 56, 0.53);
+  border: 2px solid #d7df59;
+  color: #fff;
+}
+
