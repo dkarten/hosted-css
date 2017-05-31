@@ -1,5 +1,21 @@
-
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@font-face {
+  font-family: 'AvenirNext-Regular';
+  src: url('AvenirNextLTforAMC-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNext-Bold';
+  src: url('AvenirNextLTforAMC-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'AvenirNext-Medium';
+  src: url('AvenirNextLTforAMC-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .widget .header {
   display: none;
@@ -8,14 +24,14 @@
   background-image: none !important;
 }
 body {
-  font-family: "Nunito",sans-serif;
+  font-family: 'AvenirNext-Regular',sans-serif;
   background: transparent; 
 }
 
 #registration .container .content {
   padding: 0px;
   background-color: transparent;
-  font-family: "Nunito",sans-serif;
+  font-family: 'AvenirNext-Regular',sans-serif;
   text-align: center;
 }
 
@@ -36,7 +52,7 @@ body {
 h1, h3{
   padding-bottom: 0px;
   text-align: center;
-  font-family: "Nunito",sans-serif;
+  font-family: 'AvenirNext-Regular',sans-serif;
   color: #fff;
 }
 h1{
@@ -50,7 +66,7 @@ h3{
   line-height: 1.2;
 }
 #registration .container .content button {
-  font-family: "Nunito",sans-serif;
+  font-family: 'AvenirNext-Regular',sans-serif;
   width: 200px;
   border-radius: 2px;
   border: transparent;
@@ -91,7 +107,7 @@ img.profile-pic {
     height: 140px !important;
 }
 .name {
-    font-family: "Nunito", sans-serif;
+    font-family: 'AvenirNext-Regular',sans-serif;
     font-size: 25px !important;
     text-transform: none !important;
     color: #fff !important;
@@ -111,9 +127,13 @@ img.icon {
     font-size: 18px;
     color: #d7df59 !important;
 }
+
 .points.ct-points-color {
+  font-size: 18px !important;
+}
+
+.points.ct-points-color, .redeemable-points.ct-points-color {
     color: #d7df59 !important;
-    font-size: 18px !important;
 }
 .points.ct-points-color.flash-points::before {
     content: 'Points';
