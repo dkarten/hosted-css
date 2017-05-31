@@ -96,4 +96,7 @@ h3{
   font-family: 'AvenirNext-Bold', sans-serif;
 }
 
+#invite-friends .channel .details pre.link {
+  color: #000;
+}
 
