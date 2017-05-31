@@ -85,8 +85,16 @@ h3{
   color: #d7df59 !important;
 }
 
-#activity-list ul{
-  column-count: 2;
+@media (min-width: 768px) {
+	#activity-list ul {
+		-webkit-column-count: 2;
+		-moz-column-count: 2;
+		column-count: 2;
+	}
+  
+  #activity-list .activity {
+    height:420px;
+  }
 }
 
 #activity-list .activity {
