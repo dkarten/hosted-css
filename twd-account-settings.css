@@ -112,3 +112,10 @@ h3{
     border-color: #a3a3a3 !important;
 }
 
+.account-settings .edit, .account-settings .verify {
+  color:#d7df59 !important;
+}
+
+.account-settings .edit[disabled] {
+  color:#ccc;
+}

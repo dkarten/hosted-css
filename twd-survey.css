@@ -26,6 +26,7 @@
 body {
   font-family: 'AvenirNext-Regular',sans-serif;
   background: transparent; 
+  text-rendering: auto;
 }
 
 #registration .container .content {
@@ -108,9 +109,22 @@ h3{
 }
 
 #survey .submit-container button:hover {
-    text-decoration: none;
-    color: #fff !important;
-    border-color: #a3a3a3 !important;
+  text-decoration: none;
+  color: #fff !important;
+  border-color: #a3a3a3 !important;
+}
+
+#survey .nav-btns .prev-btn, #survey .nav-btns .next-btn {
+  background-color: transparent !important;
+  border-radius: 0px;
+  border: 1px solid gray !important;
+  color: #e6e6e6 !important;
+}
+
+#survey .nav-btns .prev-btn:hover, #survey .nav-btns .next-btn:hover {
+  text-decoration: none;
+  color: #fff !important;
+  border-color: #a3a3a3 !important;
 }
 
 .ct-points-color { 
