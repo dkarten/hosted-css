@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'AvenirNext-Regular';
-  src: url('AvenirNextLTforAMC-Regular.otf') format('truetype');
+  src: url('https://demo.crowdtwist.com/demo/AvenirNextLTforAMC-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'AvenirNext-Bold';
-  src: url('AvenirNextLTforAMC-Bold.otf') format('truetype');
+  src: url('https://demo.crowdtwist.com/demo/AvenirNextLTforAMC-Bold.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'AvenirNext-Medium';
-  src: url('AvenirNextLTforAMC-Medium.otf') format('truetype');
+  src: url('https://demo.crowdtwist.com/demo/AvenirNextLTforAMC-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
