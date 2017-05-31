@@ -85,20 +85,6 @@ h3{
   color: #d7df59 !important;
 }
 
-#activity-list ul{
-  column-count: 3;
-  column-gap: 20px;
-  column-width: 200px;
-}
-
-@media (min-width: 1100px) {
-	#activity-list ul {
-		-webkit-column-count: 4;
-		-moz-column-count: 4;
-		column-count: 4;
-	}
-}
-
 #activity-list .activity {
     background: transparent;
     border: 1px solid #d7df59;
