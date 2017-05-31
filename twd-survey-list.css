@@ -86,7 +86,7 @@ h3{
 }
 
 #activity-list ul {
-  display:flex;
+  display:flex !important;
 }
 
 
