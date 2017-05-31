@@ -112,6 +112,10 @@ h3{
     padding-right: 10px;
     padding-top: 10px;
 }
+
+#activity-list .activity .title, .ct-points.color {
+  color: #d7df59 !important;
+}
 #activity-list .image-container img {
     width: 100%;
     height: auto;
