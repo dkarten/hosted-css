@@ -95,6 +95,14 @@ h3{
   content: none !important;
 }
 
+#activity-history table th {
+  color: #fff !important;
+}
+
+.ct-points-color {
+  color:#d7df59 !important;
+}
+
 .btn {
     background: #ff004f !important;
     color: white !important;
