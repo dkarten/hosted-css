@@ -119,7 +119,11 @@ h3{
 #reward-list .rewards .reward .content .title {
     height: auto;
     margin: 0px;
-    color:#fff;
+    color:#fff !important;
+}
+
+.ct-points-color {
+  color:#d7df59 !important;
 }
 
 .reward .row:nth-child(3) {
