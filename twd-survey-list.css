@@ -85,24 +85,17 @@ h3{
   color: #d7df59 !important;
 }
 
-@media (min-width: 768px) {
-	#activity-list ul {
-		-webkit-column-count: 2;
-		-moz-column-count: 2;
-		column-count: 2;
-	}
-  
-  #activity-list .activity {
-    height:420px;
-  }
+#activity-list .activity {
+  display:flex;
 }
+
 
 #activity-list .activity {
     background: transparent;
     border: 1px solid #d7df59;
     display: block;
     min-width: 200px;
-    margin-bottom: 20px !important;
+    margin:0px 10px 10px 20px !important;
     width: 100%;
     vertical-align: top;
     break-inside: avoid;
