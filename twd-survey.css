@@ -85,93 +85,18 @@ h3{
   color: #d7df59 !important;
 }
 
-#activity-list ul{
-  column-count: 3;
-  column-gap: 20px;
-  column-width: 200px;
+#survey {
+  background-color: rgba(37, 37, 37, 0.85);
+  border: 1px solid #d7df59;
+  color: #fff;
 }
 
-@media (min-width: 1100px) {
-	#activity-list ul {
-		-webkit-column-count: 4;
-		-moz-column-count: 4;
-		column-count: 4;
-	}
+#survey .description {
+  display:none;
 }
 
-#activity-list .activity {
-    background: transparent;
-    border: 1px solid #d7df59;
-    display: block;
-    min-width: 200px;
-    margin-bottom: 20px !important;
-    width: 100%;
-    vertical-align: top;
-    break-inside: avoid;
-    padding: 0px;
-    color:#fff;
-    opacity: 0.8;
-}
-
-#activity-list .activity:hover {
-  opacity: 1;
-}
-
-#activity-list .image-container {
-    float: none;
-    display: block;
-    height: auto;
-    width: auto;
-    background: transparent !important;
-    text-align: center;
-    border-radius: 0px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-}
-
-#activity-list .activity .title, .ct-points-color {
-  color: #d7df59 !important;
-}
-
-#activity-list .image-container img {
-    width: 100%;
-    height: auto;
-}
-#activity-list .info-container {
-    display: block !important;
-    width: 100%;
-    max-width: none;
-    background: transparent;
-    padding: 0px 20px;
-    color:#fff;
-}
-#activity-list .activity+.activity {
-   margin-top: 0px;
-}
-.points-container {
-    float: none !important;
-    text-align: right;
-    width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    background: transparent;
-    margin-left: 0px !important;
-}
-.points-container .point-value .ct-points-color {
-  color:#d7df59;
-}
-
-li.activity::after {
-    content: '\A';
-    padding: 10px;
-}
-#activity-list .activity:hover {
-    background: transparent !important;
-}
-#activity-list .unavailable img, #activity-list .unavailable .info-container, #activity-list .unavailable .point-value, #activity-list .locked img, #activity-list .locked .info-container, #activity-list .locked .point-value {
-    opacity: 1;
+#survey .submit-container .points {
+  display:block;
 }
 
 
