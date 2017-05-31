@@ -99,3 +99,16 @@ h3{
   width: 180px !important;
 }
 
+.button-container button {
+  background-color: transparent !important;
+  border-radius: 0px;
+  border: 1px solid gray !important;
+  color: #e6e6e6 !important;
+}
+
+.button-container button:hover {
+    text-decoration: none;
+    color: #fff;
+    border-color: #a3a3a3;
+}
+

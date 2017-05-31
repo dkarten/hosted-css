@@ -99,17 +99,18 @@ h3{
 }
 
 #reward-list .reward {
-    background: transparent !important;
-    border: 1px solid #d7df59 !important;
-    display: block;
-    min-width: 200px;
-    margin: 10px !important;
-    width: 100% !important;
-    vertical-align: top;
-    break-inside: avoid;
-    padding: 15px;
-    color: #fff;
-    opacity: 0.8;
+  background: transparent !important;
+  border: 1px solid #d7df59 !important;
+  display: block;
+  min-width: 200px;
+  margin: 10px !important;
+  width: 100% !important;
+  vertical-align: top;
+  break-inside: avoid;
+  padding: 15px;
+  color: #fff;
+  opacity: 0.8;
+  height:360px;
 }
 
 #reward-list .reward:hover {
