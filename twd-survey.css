@@ -97,6 +97,11 @@ h3{
 
 #survey .submit-container .points {
   display:block;
+  color: #d7df59 !important;
+}
+
+.ct-points-color { 
+  color: #d7df59 !important;
 }
 
 
