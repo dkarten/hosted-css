@@ -105,6 +105,12 @@ h3{
   height:380px;
 }
 
+@media (min-width: 1100px) {
+	#reward-list .reward {
+		height:480px;
+	}
+}
+
 #reward-list .reward:hover {
   opacity: 1;
 }
