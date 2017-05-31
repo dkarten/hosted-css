@@ -85,13 +85,14 @@ h3{
   color: #d7df59 !important;
 }
 
-#point-gift {
-  background-color: rgba(58, 56, 56, 0.53);
-  border: 2px solid #d7df59;
+#invite-friends {
+  background-color: rgba(37, 37, 37, 0.85);
+  border: 1px solid #d7df59;
   color: #fff;
 }
 
-#point-gift .points b {
-    color: #d7df59 !important;
+.ct-points-color { 
+  color: #d7df59 !important;
 }
+
 
