@@ -100,6 +100,8 @@ h3{
   border-radius: 0px;
   border: 1px solid gray !important;
   color: #e6e6e6 !important;
+  cursor: pointer;
+  text-transform: uppercase;
 }
 
 .submit button:hover {
