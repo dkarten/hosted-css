@@ -94,7 +94,14 @@ h3{
 #dynamic-form .submit-container button {
   background-color: transparent !important;
   border-radius: 0px;
-  border: 1px solid gray;  
+  border: 1px solid gray !important;
+  color: #e6e6e6 !important;
+}
+
+#dynamic-form .submit-container button:hover {
+    text-decoration: none;
+    color: #fff;
+    border-color: #a3a3a3;
 }
 
 .ct-points-color { 
