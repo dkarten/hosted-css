@@ -85,17 +85,9 @@ h3{
   color: #d7df59 !important;
 }
 
-#account-settings {
+#point-gift {
   background-color: rgba(58, 56, 56, 0.53);
   border: 2px solid #d7df59;
   color: #fff;
-}
-
-.account-settings .input-group {
-  width:200px !important;
-}
-
-.account-settings .input-group input, .account-settings .input-group select {
-  width: 180px !important;
 }
 
