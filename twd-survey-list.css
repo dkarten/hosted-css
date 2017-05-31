@@ -85,6 +85,10 @@ h3{
   color: #d7df59 !important;
 }
 
+#activity-list ul{
+  column-count: 2;
+}
+
 #activity-list .activity {
     background: transparent;
     border: 1px solid #d7df59;
