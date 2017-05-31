@@ -85,7 +85,7 @@ h3{
   color: #d7df59 !important;
 }
 
-#activity-list .activity {
+#activity-list ul {
   display:flex;
 }
 
