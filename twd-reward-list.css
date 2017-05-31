@@ -115,6 +115,7 @@ h3{
 
 #reward-list .reward:hover {
   opacity: 1;
+  text-decoration: none;
 }
 
 #reward-list .rewards .reward .content .title {

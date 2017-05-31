@@ -100,17 +100,17 @@ h3{
   color: #d7df59 !important;
 }
 
-#dynamic-form .submit-container button {
+#survey .submit-container button {
   background-color: transparent !important;
   border-radius: 0px;
   border: 1px solid gray !important;
   color: #e6e6e6 !important;
 }
 
-#dynamic-form .submit-container button:hover {
+#survey .submit-container button:hover {
     text-decoration: none;
-    color: #fff;
-    border-color: #a3a3a3;
+    color: #fff !important;
+    border-color: #a3a3a3 !important;
 }
 
 .ct-points-color { 

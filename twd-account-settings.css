@@ -108,7 +108,7 @@ h3{
 
 .button-container button:hover {
     text-decoration: none;
-    color: #fff;
-    border-color: #a3a3a3;
+    color: #fff !important;
+    border-color: #a3a3a3 !important;
 }
 

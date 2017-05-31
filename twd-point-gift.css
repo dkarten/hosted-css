@@ -95,3 +95,15 @@ h3{
     color: #d7df59 !important;
 }
 
+.submit button {
+  background-color: transparent !important;
+  border-radius: 0px;
+  border: 1px solid gray !important;
+  color: #e6e6e6 !important;
+}
+
+.submit button:hover {
+    text-decoration: none;
+    color: #fff !important;
+    border-color: #a3a3a3 !important;
+}
