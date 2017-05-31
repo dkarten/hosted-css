@@ -91,7 +91,7 @@ h3{
   color: #fff;
 }
 
-#survey .submit-container button {
+#dynamic-form .submit-container button {
   background-color: transparent !important;
   border-radius: 0px;
   border: 1px solid gray;  
