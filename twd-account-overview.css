@@ -85,6 +85,20 @@ h3{
   color: #d7df59 !important;
 }
 
+@media (min-width:1150px) {
+  #account-overview {
+    width:75%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width:1750px) {
+  #account-overview {
+    width:50%;
+    margin: 0 auto;
+  }
+}
+
 #account-overview .header {
     display: none !important;
 }

@@ -111,6 +111,18 @@ h3{
 	}
 }
 
+@media (min-width: 1750px) {
+	#reward-list .reward {
+		height:640px;
+	}
+}
+
+@media (min-width: 2350px) {
+	#reward-list .reward {
+		height:800px;
+	}
+}
+
 #reward-list .reward:hover {
   opacity: 1;
 }
