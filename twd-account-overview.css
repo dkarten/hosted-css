@@ -85,7 +85,7 @@ h3{
   color: #d7df59 !important;
 }
 
-@media (min-width:1150px) {
+@media (min-width:1150px) and (max-width: 1749px) {
   #account-overview {
     width:75%;
     margin: 0 auto;
