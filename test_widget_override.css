@@ -1,0 +1,4 @@
+#survey-v3 .question-container input[type="text"] {
+  border-radius: 8px;
+  background: #ff0000;
+}
